@@ -1,5 +1,5 @@
 flask==2.3.2
 flask-cors==4.0.0
 xgboost==1.7.6
-pandas==2.0.3
+pandas==2.2.2  # Try a newer stable version
 joblib==1.3.2
