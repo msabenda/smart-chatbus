@@ -1,5 +1,5 @@
 flask==3.0.3
 flask-cors==5.0.0
 xgboost==2.1.1
-pandas==2.3.0.dev0; sys_platform == 'linux' @ https://files.pythonhosted.org/packages/3a/45/6d39e8c46dd02e2e6d4dc7b8283c7276eb04f4f5ab02ea9a81157a5bb44b/pandas-2.3.0.dev0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+pandas==2.3.0.dev0 @ https://files.pythonhosted.org/packages/3a/45/6d39e8c46dd02e2e6d4dc7b8283c7276eb04f4f5ab02ea9a81157a5bb44b/pandas-2.3.0.dev0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl ; sys_platform == "linux"
 joblib==1.4.2
