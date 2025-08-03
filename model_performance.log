@@ -1,0 +1,113 @@
+2025-08-03 10:31:53,500 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.18:5000
+2025-08-03 10:31:53,501 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 10:33:55,801 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-03 10:33:55,812 - ERROR - Prediction failed: feature_names mismatch: ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays', 'date_ordinal'] ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays']
+expected date_ordinal in input data. Returning default.
+2025-08-03 10:33:55,813 - INFO - Query: How many passengers on Friday at 5 PM with rainy weather?, Language: English, Features: {time: 7:00, day: Thursday, weather: Sunny, peak_hours: No, weekends: No, holidays: No}, Prediction: 43
+2025-08-03 10:34:03,880 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-03 10:34:03,881 - INFO - 127.0.0.1 - - [03/Aug/2025 10:34:03] "POST /predict HTTP/1.1" 200 -
+2025-08-03 10:36:15,487 - ERROR - Prediction endpoint error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-03 10:36:15,488 - INFO - 127.0.0.1 - - [03/Aug/2025 10:36:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-08-03 10:36:21,335 - ERROR - Prediction endpoint error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-03 10:36:21,335 - INFO - 127.0.0.1 - - [03/Aug/2025 10:36:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-08-03 10:38:38,797 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-03 10:38:38,802 - ERROR - Prediction failed: feature_names mismatch: ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays', 'date_ordinal'] ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays']
+expected date_ordinal in input data. Returning default.
+2025-08-03 10:38:38,802 - INFO - Query: Passenger count on Wednesday at 8 AM, sunny weather, Language: English, Features: {time: 7:00, day: Thursday, weather: Sunny, peak_hours: No, weekends: No, holidays: No}, Prediction: 43
+2025-08-03 10:38:48,938 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-03 10:38:48,939 - INFO - 127.0.0.1 - - [03/Aug/2025 10:38:48] "POST /predict HTTP/1.1" 200 -
+2025-08-03 10:40:45,113 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-03 10:40:45,118 - ERROR - Prediction failed: feature_names mismatch: ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays', 'date_ordinal'] ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays']
+expected date_ordinal in input data. Returning default.
+2025-08-03 10:40:45,119 - INFO - Query: Je, idadi ya abiria siku ya Ijumaa saa kumi na moja jioni ni ngapi?, Language: English, Features: {time: 7:00, day: Thursday, weather: Sunny, peak_hours: No, weekends: No, holidays: No}, Prediction: 43
+2025-08-03 10:40:55,000 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-03 10:40:55,001 - INFO - 127.0.0.1 - - [03/Aug/2025 10:40:55] "POST /predict HTTP/1.1" 200 -
+2025-08-03 10:43:33,984 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-03 10:43:33,988 - ERROR - Prediction failed: feature_names mismatch: ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays', 'date_ordinal'] ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays']
+expected date_ordinal in input data. Returning default.
+2025-08-03 10:43:33,988 - INFO - Query: Passenger count on Tuesday at 1 pM, sunny weather, Language: English, Features: {time: 7:00, day: Thursday, weather: Sunny, peak_hours: No, weekends: No, holidays: No}, Prediction: 43
+2025-08-03 10:43:42,238 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-03 10:43:42,239 - INFO - 127.0.0.1 - - [03/Aug/2025 10:43:42] "POST /predict HTTP/1.1" 200 -
+2025-08-03 10:48:27,547 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.18:5000
+2025-08-03 10:48:27,548 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 10:50:00,521 - ERROR - Prediction failed: feature_names mismatch: ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays', 'date_ordinal'] ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays']
+expected date_ordinal in input data. Returning default.
+2025-08-03 10:50:00,522 - INFO - Query: How many passengers on Friday at 5 PM with rainy weather?, Language: English, Features: {time: 17:00, day: Friday, weather: Rainy, peak_hours: Yes, weekends: No, holidays: No}, Prediction: 43
+2025-08-03 10:50:00,522 - INFO - 127.0.0.1 - - [03/Aug/2025 10:50:00] "POST /predict HTTP/1.1" 200 -
+2025-08-03 10:50:44,518 - ERROR - Prediction failed: feature_names mismatch: ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays', 'date_ordinal'] ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays']
+expected date_ordinal in input data. Returning default.
+2025-08-03 10:50:44,519 - INFO - Query: Passenger count on Wednesday at 8 AM, sunny weather, Language: English, Features: {time: 8:00, day: Wednesday, weather: Sunny, peak_hours: Yes, weekends: No, holidays: No}, Prediction: 43
+2025-08-03 10:50:44,519 - INFO - 127.0.0.1 - - [03/Aug/2025 10:50:44] "POST /predict HTTP/1.1" 200 -
+2025-08-03 10:52:21,279 - ERROR - Prediction failed: feature_names mismatch: ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays', 'date_ordinal'] ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays']
+expected date_ordinal in input data. Returning default.
+2025-08-03 10:52:21,279 - INFO - Query: How many passengers on Sunday at 12 PM, sunny?, Language: English, Features: {time: 12:00, day: Sunday, weather: Sunny, peak_hours: No, weekends: Yes, holidays: No}, Prediction: 43
+2025-08-03 10:52:21,280 - INFO - 127.0.0.1 - - [03/Aug/2025 10:52:21] "POST /predict HTTP/1.1" 200 -
+2025-08-03 10:53:13,967 - ERROR - Prediction failed: feature_names mismatch: ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays', 'date_ordinal'] ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays']
+expected date_ordinal in input data. Returning default.
+2025-08-03 10:53:13,967 - INFO - Query: Je, idadi ya abiria siku ya Ijumaa saa kumi na moja jioni ni ngapi?, Language: Swahili, Features: {time: 8:00, day: Friday, weather: Sunny, peak_hours: Yes, weekends: No, holidays: No}, Prediction: 43
+2025-08-03 10:53:13,968 - INFO - 127.0.0.1 - - [03/Aug/2025 10:53:13] "POST /predict HTTP/1.1" 200 -
+2025-08-03 10:57:35,411 - DEBUG - XGBoost model loaded successfully
+2025-08-03 10:57:35,417 - DEBUG - Loaded encoder for day
+2025-08-03 10:57:35,418 - DEBUG - Loaded encoder for weather
+2025-08-03 10:57:35,419 - DEBUG - Loaded encoder for peak_hours
+2025-08-03 10:57:35,419 - DEBUG - Loaded encoder for weekends
+2025-08-03 10:57:35,420 - DEBUG - Loaded encoder for holidays
+2025-08-03 10:57:35,511 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.18:5000
+2025-08-03 10:57:35,511 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 10:57:35,515 - INFO -  * Restarting with stat
+2025-08-03 10:57:38,153 - DEBUG - XGBoost model loaded successfully
+2025-08-03 10:57:38,158 - DEBUG - Loaded encoder for day
+2025-08-03 10:57:38,159 - DEBUG - Loaded encoder for weather
+2025-08-03 10:57:38,160 - DEBUG - Loaded encoder for peak_hours
+2025-08-03 10:57:38,160 - DEBUG - Loaded encoder for weekends
+2025-08-03 10:57:38,161 - DEBUG - Loaded encoder for holidays
+2025-08-03 10:57:38,179 - WARNING -  * Debugger is active!
+2025-08-03 10:57:38,189 - INFO -  * Debugger PIN: 109-729-919
+2025-08-03 10:58:07,140 - DEBUG - Received request: query=Passenger count on Wednesday at 8 AM, sunny weather, language=English
+2025-08-03 10:58:07,141 - DEBUG - Processing query: Passenger count on Wednesday at 8 AM, sunny weather
+2025-08-03 10:58:07,141 - DEBUG - Extracted day: Wednesday
+2025-08-03 10:58:07,143 - DEBUG - Extracted time: 8:00 am
+2025-08-03 10:58:07,143 - DEBUG - Extracted weather: Sunny
+2025-08-03 10:58:07,144 - DEBUG - Parsed time 8:00 am to 8:00 (480 minutes)
+2025-08-03 10:58:07,144 - DEBUG - Determined peak_hours: Yes
+2025-08-03 10:58:07,144 - DEBUG - Determined weekends: No
+2025-08-03 10:58:07,144 - DEBUG - Parsed time 8:00 am to 8:00 (480 minutes)
+2025-08-03 10:58:07,144 - DEBUG - Validated features: time=480, day=Wednesday, weather=Sunny, peak_hours=Yes, weekends=No, holidays=No
+2025-08-03 10:58:07,150 - ERROR - Prediction failed: feature_names mismatch: ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays', 'date_ordinal'] ['day', 'weather', 'time_value', 'peak_hours', 'weekends', 'holidays']
+expected date_ordinal in input data. Returning default.
+2025-08-03 10:58:07,150 - INFO - Query: Passenger count on Wednesday at 8 AM, sunny weather, Language: English, Features: {time: 8:00, day: Wednesday, weather: Sunny, peak_hours: Yes, weekends: No, holidays: No}, Prediction: 43
+2025-08-03 10:58:07,151 - DEBUG - Generating response for prediction: 43, language: English
+2025-08-03 10:58:07,151 - INFO - 127.0.0.1 - - [03/Aug/2025 10:58:07] "POST /predict HTTP/1.1" 200 -
+2025-08-03 10:58:18,425 - INFO -  * Detected change in 'C:\\Users\\Wandowa\\Documents\\PROJECTS\\Wandowa Final Year Project\\AI&ML Codes\\xgboost\\app.py', reloading
+2025-08-03 10:58:18,664 - INFO -  * Restarting with stat
+2025-08-03 11:07:25,927 - DEBUG - XGBoost model loaded successfully
+2025-08-03 11:07:25,933 - DEBUG - Loaded encoder for day
+2025-08-03 11:07:25,934 - DEBUG - Loaded encoder for weather
+2025-08-03 11:07:25,935 - DEBUG - Loaded encoder for peak_hours
+2025-08-03 11:07:25,936 - DEBUG - Loaded encoder for weekends
+2025-08-03 11:07:25,937 - DEBUG - Loaded encoder for holidays
+2025-08-03 11:07:26,317 - DEBUG - Ollama client initialized successfully
+2025-08-03 11:07:26,348 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.18:5000
+2025-08-03 11:07:26,349 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 11:07:26,352 - INFO -  * Restarting with stat
+2025-08-03 11:07:29,658 - DEBUG - XGBoost model loaded successfully
+2025-08-03 11:07:29,663 - DEBUG - Loaded encoder for day
+2025-08-03 11:07:29,665 - DEBUG - Loaded encoder for weather
+2025-08-03 11:07:29,665 - DEBUG - Loaded encoder for peak_hours
+2025-08-03 11:07:29,666 - DEBUG - Loaded encoder for weekends
+2025-08-03 11:07:29,667 - DEBUG - Loaded encoder for holidays
+2025-08-03 11:07:30,033 - DEBUG - Ollama client initialized successfully
+2025-08-03 11:07:30,048 - WARNING -  * Debugger is active!
+2025-08-03 11:07:30,050 - INFO -  * Debugger PIN: 109-729-919
